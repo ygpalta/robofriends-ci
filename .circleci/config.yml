@@ -5,7 +5,7 @@ jobs:
        - image: circleci/node:latest
      steps:
        - checkout
-       - run: echo "first Hello"
+       - run: echo "first Helloo"
    test:
      docker:
        - image: circleci/node:latest
